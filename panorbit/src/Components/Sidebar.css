@@ -1,0 +1,20 @@
+.sidebar{
+    background: linear-gradient(197.32deg, #4152C8 34.57%, #5740C8 67.75%);
+    color: #a0acea;
+    /* color: white; */
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    border-radius: 25px;
+}
+.sidebar_ele{
+    border-bottom: 1px solid #a0acea;
+}
+.sidebar_ele>p{
+    color: #ffffff;
+}

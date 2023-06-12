@@ -1,0 +1,17 @@
+.chat-container {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    width: 250px;
+    height: 400px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%);
+    padding: 0;
+    flex-direction: column;
+  }
+  
+  .chat-container.open {
+    transform: translateY(20px);
+  }
+  
+  
